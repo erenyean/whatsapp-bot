@@ -17,16 +17,16 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || "false"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md-3";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
-global.website =process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "Made With LOVE!" 
+global.github=process.env.GITHUB|| "https://github.com/ayazaliofc";
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaCo4fs6BIErVbJ9ey0k";
+global.website =process.env.GURL || "https://whatsapp.com/channel/0029VaCo4fs6BIErVbJ9ey0k" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/s5v08g.jpeg" || "https://files.catbox.moe/6d7jb2.jpeg" ; // SET LOGO FOR IMAGE 
+global.caption = process.env.CAPTION || global.caption || "𝐌ᴀᴅᴇ 𝐖ɪᴛʜ 𝐋ᴏᴠᴇ 🍥" 
 
 
 global.devs = "" // Developer Contacts
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923032112917";
 
 
 
@@ -75,8 +75,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-MD",
-  ownername:process.env.OWNER_NAME|| "Suhail:Shy<3",
+  botname : process.env.BOT_NAME  || "〆 𝐀𝐘𝐀𝐙 𓆩愛𓆪",
+  ownername:process.env.OWNER_NAME|| "ɳoɓꀤʈɑ 👑🖤🎧",
 
 
   errorChat : process.env.ERROR_CHAT || "",
